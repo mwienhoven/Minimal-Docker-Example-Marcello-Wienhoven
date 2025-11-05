@@ -64,3 +64,5 @@ for book in books:
     filename = re.sub(r"%20", "_", book)
     datafile = datadir / "tanach" / Path(f"{filename}.txt")
     download(url, datafile)
+
+logger.info("Ingestion complete.")

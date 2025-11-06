@@ -1,4 +1,5 @@
-.PHONY: ingest preprocess serve model all cluster train serve
+# Makefile for data ingestion, preprocessing, model training, and serving
+.PHONY: ingest preprocess serve model all cluster train serve # Define targets
 
 # Ingest data
 ingest:

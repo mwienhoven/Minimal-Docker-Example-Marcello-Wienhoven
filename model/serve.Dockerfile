@@ -5,7 +5,7 @@ FROM python:3.12-slim
 WORKDIR /app
 
 # Copy the Python script into the container
-COPY model.py cluster.py /app/
+COPY model.py serve.py /app/
 
 # Install required Python packages from requirements.txt
 COPY requirements.txt .

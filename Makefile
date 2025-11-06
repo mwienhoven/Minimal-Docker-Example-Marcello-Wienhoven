@@ -1,4 +1,4 @@
-.PHONY: ingest preprocess train serve
+.PHONY: ingest preprocess serve model all cluster train serve
 
 # Ingest data
 ingest:
